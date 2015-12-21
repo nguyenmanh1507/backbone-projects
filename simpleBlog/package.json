@@ -1,0 +1,23 @@
+{
+  "name": "backbone-projects",
+  "version": "1.0.0",
+  "description": "Simple Blog powered by Backbone",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "nguyenmanh1507",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "bourne": "^0.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}
