@@ -1,12 +1,12 @@
 'use strict';
 
-var express = require('express'),
-		path    = require('path'),
-		Bourne  = require("bourne"),
-		app = express(),
-		posts = new Bourne("simpleBlogPosts.json"),
-		comments = new Bourne("simpleBlogComments.json")
-	;
+var express  = require('express'),
+		path     = require('path'),
+		Bourne   = require('bourne'),
+		app      = express(),
+		posts    = new Bourne('simpleBlogPosts.json'),
+		comments = new Bourne('simpleBlogComments.json')
+;
 
 app.configure(function() {
 	app.use(express.json());
@@ -14,7 +14,7 @@ app.configure(function() {
 });
 
 app.get('/*', function(req, res) {
-	res.render("index.ejs");
+	res.render('index.ejs');
 });
 
 app.listen(3000);

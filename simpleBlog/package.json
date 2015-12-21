@@ -2,7 +2,6 @@
   "name": "backbone-projects",
   "version": "1.0.0",
   "description": "Simple Blog powered by Backbone",
-  "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
